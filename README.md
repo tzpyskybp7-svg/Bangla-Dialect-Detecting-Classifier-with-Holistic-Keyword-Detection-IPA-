@@ -1,0 +1,2 @@
+# Bangla-Dialect-Detecting-Classifier-with-Holistic-Keyword-Detection-IPA-
+Bangla Dialect Detection (RegSpeech12): a speech dialect classifier packaged as a FastAPI inference API with Docker/docker-compose for reproducible runs. Includes exported model artifacts (artifacts/runs/latest) and evaluation reports. Best supported dialects: Rangpur, Chittagong, Sylhet, Barishal, Kishoreganj, Narail, Sandwip.
