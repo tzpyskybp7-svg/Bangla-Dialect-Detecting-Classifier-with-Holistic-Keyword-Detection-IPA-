@@ -1,0 +1,22 @@
+numpy
+pandas
+tqdm
+soundfile
+torchaudio
+torch
+transformers
+scikit-learn
+joblib
+matplotlib
+allosaurus==1.0.2
+
+# API + frontend
+fastapi
+uvicorn
+python-multipart
+
+
+# Optional: word timestamps (install if you want /keyword_timestamp)
+faster-whisper
+phonemizer
+rapidfuzz

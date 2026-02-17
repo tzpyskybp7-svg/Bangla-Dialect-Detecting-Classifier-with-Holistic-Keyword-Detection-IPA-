@@ -1,0 +1,10 @@
+services:
+  dialect:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_DIR=/app/artifacts/runs/latest
+      - CHUNK_SELECT=first

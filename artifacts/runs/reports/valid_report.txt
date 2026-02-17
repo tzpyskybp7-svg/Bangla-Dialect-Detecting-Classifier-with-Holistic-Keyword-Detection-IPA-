@@ -1,0 +1,18 @@
+              precision    recall  f1-score   support
+
+    barishal     0.5633    0.8812    0.6873       101
+  chittagong     0.6235    0.8750    0.7281       176
+     comilla     0.0357    0.0312    0.0333        32
+    habiganj     0.0000    0.0000    0.0000       117
+ kishoreganj     0.9231    0.9951    0.9577       205
+      narail     0.5556    0.1613    0.2500       186
+   narsingdi     0.7571    0.3869    0.5121       137
+    noakhali     0.2000    0.1429    0.1667        28
+     rangpur     0.9091    1.0000    0.9524       130
+     sandwip     0.8415    0.5267    0.6479       131
+      sylhet     0.6769    0.9541    0.7919       762
+     tangail     0.0476    0.0079    0.0135       127
+
+    accuracy                         0.6857      2132
+   macro avg     0.5111    0.4969    0.4784      2132
+weighted avg     0.6191    0.6857    0.6239      2132

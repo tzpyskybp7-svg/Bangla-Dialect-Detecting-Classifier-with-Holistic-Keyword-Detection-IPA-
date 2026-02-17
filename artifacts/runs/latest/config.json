@@ -1,0 +1,48 @@
+{
+  "project_root": "/Users/farhanaakter/Pictures/ProjectML",
+  "data_root": "/Users/farhanaakter/Downloads/archive-3",
+  "artifacts_dir": "artifacts",
+  "run_name": "20260217_213632_embed_linear_svc",
+  "filename_regex": "^(train|valid|test)_(.+?)_(\\d+)\\.wav$",
+  "target_sr": 16000,
+  "chunk_sec": 4.0,
+  "hop_sec": 2.0,
+  "max_chunks_per_file_train": 6,
+  "max_chunks_per_file_eval": 10,
+  "trim_silence": true,
+  "trim_db": 35.0,
+  "ssl_model_name": "facebook/wav2vec2-xls-r-300m",
+  "pooling": "stats3",
+  "cache_embeddings": true,
+  "strategy": "embed_linear_svc",
+  "xgb_n_estimators": 800,
+  "xgb_max_depth": 8,
+  "xgb_learning_rate": 0.05,
+  "xgb_subsample": 0.9,
+  "xgb_colsample": 0.9,
+  "ft_epochs": 6,
+  "ft_batch_size": 8,
+  "ft_lr": 2e-05,
+  "ft_weight_decay": 0.01,
+  "ft_warmup_ratio": 0.05,
+  "ft_freeze_feature_encoder": true,
+  "ft_grad_accum_steps": 1,
+  "ft_amp": true,
+  "aug_speed_probs": 0.35,
+  "aug_noise_probs": 0.4,
+  "aug_gain_probs": 0.3,
+  "aug_speeds": [
+    0.9,
+    1.0,
+    1.1
+  ],
+  "aug_snr_db_range": [
+    10.0,
+    30.0
+  ],
+  "aug_gain_range": [
+    0.8,
+    1.2
+  ],
+  "seed": 7
+}

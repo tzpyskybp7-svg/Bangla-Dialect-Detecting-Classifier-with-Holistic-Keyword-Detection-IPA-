@@ -1,0 +1,9 @@
+{
+  "strategy": "embed_linear_svc",
+  "ssl_model_name": "facebook/wav2vec2-xls-r-300m",
+  "pooling": "stats3",
+  "target_sr": 16000,
+  "chunk_sec": 4.0,
+  "hop_sec": 2.0,
+  "max_chunks_eval": 10
+}
